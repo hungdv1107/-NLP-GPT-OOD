@@ -38,7 +38,7 @@ def learn_subword_vocab(word_vocab, n_iter):
     return subword_vocab, pairs
 
 print("Loading the data.")
-tmp_path = "C:/Users/admin/Desktop/Codes/"
+tmp_path = "/content/drive/My Drive/NLP/NLP-GPT-OOD-main/data"
 start_tm = time.time()
 
 tmp_line_file = tmp_path + "movie_lines.txt"
